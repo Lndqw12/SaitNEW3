@@ -1,0 +1,118 @@
+﻿body, html {
+	background-color:#080808;
+}
+.news_trap{
+	width:1486px;
+	height:900px;
+	background-color:black;
+	/*border-style:solid;*/
+	margin:0 auto;
+	top:10px;
+	opacity:0.87;
+	margin-top:20px;
+	background-image:url(1.jpg);
+	background-position: center;
+    background-attachment:scroll;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-repeat: no-repeat;
+}
+.news_text{
+	/*position: relative;*/
+	font-family:CALIBRI;
+	width: 1200px;
+	height: 280px;
+	margin: 0 auto;
+	color: white;
+	background-color: red-space;
+	-border-style: solid;
+	top: 26px;
+	margin-top: 26px;
+	/*border-width:0.7px;*/
+	/*border-top-color:white;*/
+}
+.news_text span {
+	color:red;
+}
+.news_text h1{
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:100px;
+	font-family: calibri;
+	font-size:40px;
+}
+.news_textt{
+	position:relative;
+	width: 760px;
+	height: 200px;
+	margin: 0 auto;
+	color:white;
+	background-color: red-space;
+	-border-style: solid;
+	top: -40px;
+	margin-top: 37px;
+	line-height: 2.1;
+}
+.news_textt h3{
+	text-transform:uppercase;
+	text-align:center;
+	padding-top:10px;
+	font-family: CALIBRI;
+	font-size:20px;
+	text-align:center;
+}
+.news_blocki{
+	position:relative;
+	width: 760px;
+	height: 200px;
+	margin: 0 auto;
+	color:white;
+	background-color: red-space;
+	/*border-style: solid;*/
+	top: -40px;
+	margin-top: 37px;
+}
+.blocki{
+	position: relative;
+	width: 245px;
+	height: 197px;
+	margin: 0 auto;
+	color: white;
+	background-color: red-space;
+	border-style: solid;
+	top: 0px;
+	margin-top: 0px;
+	float: left;
+	margin-left: 2px;
+	border-color:#FD0002;
+	border-width:1px;
+	border-radius:8px;
+}
+.blocki1 {
+	background-image:url(png/1.jpg);
+	width:52px;
+	height:52px;
+	margin-left: 100px;
+    margin-top: -25px;
+}
+.blocki2 {
+	background-image:url(png/2.jpg);
+	width:52px;
+	height:52px;
+	margin-left: 100px;
+    margin-top: -25px;
+}
+.blocki3 {
+	background-image:url(png/3.jpg);
+	width:52px;
+	height:52px;
+	margin-left: 100px;
+    margin-top: -25px;
+}
+.podblock{
+	text-align:center;
+	font-size:20px;
+}
+p{font-family:CALIBRI;}
+h1 {font-family:impact;}
+span{font-family:impact;}
