@@ -1,5 +1,5 @@
 ﻿body, html {
-	background-color:#080808;
+	background-color:gray;
 }
 .news_trap{
 	width:1486px;
@@ -113,6 +113,72 @@
 	text-align:center;
 	font-size:20px;
 }
+.header{
+	width:1486px;
+	height:1000px;
+	margin:0 auto;
+	background-color:white;
+	-border-style:solid;
+}
+.header_glavn{
+	width:1486px;
+	height:75px;
+	-margin:0 auto fixed;
+	background-color:white;
+	border-width:1px;
+	-border-style:solid;
+}
+.header_glavn_line{
+	width:1486px;
+	height:0px;
+	margin:0 auto;
+	background-color:gray-space;
+	border-width:1px;
+	border-style:double;
+	border-color:black;
+}
+#navbar ul{
+        display: none;
+        background-color: #f90;
+        position: absolute;
+        top: 100%;
+      }
+      #navbar li:hover ul { display: block; }
+      #navbar, #navbar ul{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+      }
+      #navbar {
+        height: 75px;
+        background-color: #666-space;
+        padding-left: 25px;
+        min-width: 470px;
+		float:left;
+		margin-left: 988px;
+      }
+      #navbar li {
+        float: left;
+        position: relative;
+        height: 80%;
+		margin-top: 0px;
+		font-size: 25px;
+		padding-top: 15px;
+      }
+      #navbar li a {
+        display: block;
+        padding: 6px;
+        width: 100px;
+        color: black;
+        text-decoration: none;
+        text-align: center;
+		font-family:calibri;
+      }
+	  #navbar li a:hover {color:red;}
+	  #navbar li a:active {color:#E80000 ;}
+      #navbar ul li { float: none; }
+      #navbar li:hover { -background-color: #f90; }
+      #navbar ul li:hover { background-color: #6661; }
 p{font-family:CALIBRI;}
 h1 {font-family:impact;}
 span{font-family:impact;}
