@@ -1,21 +1,43 @@
 ﻿body, html {
-	background-color:gray;
+	background-color:black;
+	/*width:1500px;
+	height:820px;
+	color:red;
+	background-color:black;*/
+}
+/*Создать главный блок ,подблок, с полным расширением ,ширина100 высота 1000,*/
+.glavn_block_boss{
+	width:1500px;
+	height:9000px;
+	background-color:#686C8D;
+	margin:0 auto;
 }
 .news_trap{
-	width:1486px;
-	height:900px;
-	background-color:black;
+	width:1500px;
+	height:820px;
+	background-color:#686C8D;
 	/*border-style:solid;*/
 	margin:0 auto;
 	top:10px;
-	opacity:0.87;
+	opacity:0.75;
 	margin-top:20px;
-	background-image:url(1.jpg);
-	background-position: center;
+	background-image:url(png/4.jpg);
+	/*background-position: center;
     background-attachment:scroll;
 	overflow-x: hidden;
 	overflow-y: hidden;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	-filter: alpha(Opacity=80);
+}
+.myClass {
+        float: left;
+        margin-right: 5px;
+        opacity: 0.4;
+        filter: alpha(opacity=40); /*для IE8 и более ранних версий*/
+      }
+.transparent25 {
+    filter: alpha(Opacity=80);
+    opacity: 0.8;
 }
 .news_text{
 	/*position: relative;*/
@@ -63,7 +85,7 @@
 }
 .news_blocki{
 	position:relative;
-	width: 760px;
+	width: 1070px;
 	height: 200px;
 	margin: 0 auto;
 	color:white;
@@ -74,8 +96,8 @@
 }
 .blocki{
 	position: relative;
-	width: 245px;
-	height: 197px;
+	width: 250px;
+	height: 160px;
 	margin: 0 auto;
 	color: white;
 	background-color: red-space;
@@ -83,10 +105,10 @@
 	top: 0px;
 	margin-top: 0px;
 	float: left;
-	margin-left: 2px;
-	border-color:#FD0002;
-	border-width:1px;
-	border-radius:8px;
+	margin-left: 59px;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 1px;
 }
 .blocki1 {
 	background-image:url(png/1.jpg);
@@ -114,14 +136,14 @@
 	font-size:20px;
 }
 .header{
-	width:1486px;
+	width:1500px;
 	height:1000px;
 	margin:0 auto;
 	background-color:white;
 	-border-style:solid;
 }
 .header_glavn{
-	width:1486px;
+	width:1500px;
 	height:75px;
 	-margin:0 auto fixed;
 	background-color:white;
@@ -129,7 +151,7 @@
 	-border-style:solid;
 }
 .header_glavn_line{
-	width:1486px;
+	width:1500px;
 	height:0px;
 	margin:0 auto;
 	background-color:gray-space;
