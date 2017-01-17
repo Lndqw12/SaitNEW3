@@ -1,9 +1,11 @@
 ﻿body, html {
-	background-color:black;
-	/*width:1500px;
+	background-color:white;
+	/*background: url(./png/1.png) no-repeat top center; 
+	width:1500px;
 	height:820px;
 	color:red;
-	background-color:black;*/
+	background-color:black;
+	background-size: 100% auto;*/
 }
 /*Создать главный блок ,подблок, с полным расширением ,ширина100 высота 1000,*/
 .glavn_block_boss{
@@ -61,7 +63,9 @@
 	text-align:center;
 	padding-top:100px;
 	font-family: calibri;
-	font-size:50px;
+	font-size: 55px;
+	line-height: 70px;
+	word-spacing: 15px;
 }
 .news_textt{
 	position:relative;
@@ -82,6 +86,8 @@
 	font-family: CALIBRI;
 	font-size:20px;
 	text-align:center;
+	line-height: 35px;
+	word-spacing: 15px;
 }
 .news_blocki{
 	position:relative;
@@ -145,22 +151,24 @@
 .header_glavn{
 	width:1500px;
 	height:75px;
+	margin-right:10%;
 	-margin:0 auto fixed;
 	background-color:white;
 	border-width:1px;
 	-border-style:solid;
 }
 .header_glavn span {
-	color:red;
+	-color:red;
 }
 .header_glavn_line{
 	width:1500px;
-	height:0px;
+	height:1px;
 	margin:0 auto;
 	background-color:gray-space;
 	border-width:1px;
-	border-style:double;
+	border-style:solid;
 	border-color:black;
+	border-bottom:0px;
 }
 .header_block1 {
 	width:1500px;
@@ -277,8 +285,17 @@
 }
 .double_footer_big1 {
 	width:1500px;
-	height:170px;
-	background-color:red;
+	height:450px;
+	opacity:0.87;
+	-color:#767392;
+	-background-color:#767392;
+	background-image:url(./others/IMG_3643.jpg);
+	-background-position: bottom left = left bottom = 0% 100%;
+    -background-attachment:scroll;
+	-overflow-x: hidden;
+	-overflow-y: hidden;
+	background-repeat: no-repeat;
+	background-size: 100% auto; /*полезный параметр для изменения размера картинки*/
 	-border-style:solid 1px;
 	float:left;
 	margin:0 auto;
@@ -286,7 +303,7 @@
 }
 .double_footer_big2 {
 	width:1500px;
-	height:330px;
+	height:550px;
 	background-color:yellow;
 	-border-style:solid 1px;
 	float:left;
@@ -296,10 +313,16 @@
 .double_footer_big1 span {
 	font-family:calibri;
 	font-size:55px;
+	color:white;
+	padding-top:5%;
+	line-height: 400%;
 }
-.double_footer_big2 span {
+.double_footer_big1 p {
 	font-family:calibri;
 	font-size:25px;
+	color:white;
+	line-height: 110%;
+	margin-top: -1%;
 }
 #navbar ul{
 		display: none;
@@ -307,38 +330,53 @@
 		position: absolute;
 		top: 100%;
       }
-      #navbar li:hover ul { display: block; }
+      #navbar li:hover ul { display: block;}
       #navbar, #navbar ul{
         margin: 0;
         padding: 0;
         list-style-type: none;
       }
       #navbar {
+		width: 55%;
         height: 75px;
         background-color: #666-space;
-        padding-left: 25px;
+        padding-left: 0px;
         min-width: 470px;
 		float:left;
-		margin-left: 988px;
+		margin-left: 600px;
+		margin-top: 0px;
+		line-height:44px;
       }
       #navbar li {
         float: left;
         position: relative;
         height: 80%;
 		margin-top: 0px;
-		font-size: 25px;
+		font-size: 27px;
 		padding-top: 15px;
+		font-family:calibri;
       }
       #navbar li a {
         display: block;
-        padding: 6px;
-        width: 100px;
+        padding: 1px;
+        width: 160px;
         color: black;
         text-decoration: none;
         text-align: center;
 		font-family:calibri;
       }
-	  #navbar li a:hover {color:red;}
+	  #navbar li a:hover {
+			color:#F6AE48;
+			text-decoration: underline;
+			transition: 0.2s;
+			/*-moz-transform: rotate(15deg); /* Для Firefox 
+			-ms-transform: rotate(15deg); /* Для IE 
+			-webkit-transform: rotate(15deg); /* Для Safari, Chrome, iOS 
+			-o-transform: rotate(15deg); /* Для Opera 
+			transform: rotate(15deg);*/
+			}
+		  
+		  }
 	  #navbar li a:active {color:#E80000 ;}
       #navbar ul li { float: none; }
       #navbar li:hover { -background-color: #f90; }
