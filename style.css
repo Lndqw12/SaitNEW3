@@ -442,9 +442,31 @@
 .double_footer_big8 {
 	width:1500px;
 	height: 890px;
-	background-color:red;
+	background-color:rgba(102,120,132, 0.8);
+	background-image:url(./others/close-meeting1.jpg);
+	background-size:auto 100%, 100%;
+	background-position:center;
+	background-repeat:no-repeat;
 	margin:0% auto;
 	margin-top:225%;
+}
+.footer_big9 {
+	width: 550px;
+	height: 170px;
+	-background-color: red;
+	margin: 0% auto;
+	margin-top: -12%;
+}
+.footer_big10 {
+}
+.footer_big9 p {
+	color: #b4ffff;
+	font-size: 70px;
+	text-align: center;
+	line-height: 70px;
+	word-spacing: 20px;
+	padding-top: 10%;
+	font-family:impact;
 }
 .footerr_big1 {
 	width: 700px;
@@ -470,6 +492,36 @@
 	font-size:30px;
 	line-height:50px;
 	word-spacing: 15px;
+}
+.footerr_big3 {
+	margin: 1% auto 0px 7%;
+	width: 685px;
+	height: 500px;
+	text-align:left;
+	font-size:30px;
+	line-height:50px;
+	word-spacing: 15px;
+}
+.footerr_big4{
+	margin: 1% auto 0px 7%;
+	width: 1300px;
+	height: 650px;
+	background-color:red;
+	text-align: left;
+	font-size: 20px;
+	line-height: 20px;
+	word-spacing: 20px;
+}
+.footerr_big5{
+	margin: 2% auto 0px 3%;
+	width: 380px;
+	height: 600px;
+	background-color: blue;
+	text-align: left;
+	font-size: 20px;
+	line-height: 20px;
+	word-spacing: 20px;
+	float: left;
 }
 #navbar ul{
 		display: none;
