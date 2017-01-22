@@ -11,7 +11,7 @@
 .glavn_block_boss{
 	width:1500px;
 	height:9000px;
-	background-color:#686C8D;
+	background-color:#ffffff;
 	margin:0 auto;
 }
 .news_trap{
@@ -460,7 +460,7 @@
 .footer_big10 {
 }
 .footer_big9 p {
-	color: #b4ffff;
+	color: #ffffff;
 	font-size: 70px;
 	text-align: center;
 	line-height: 70px;
@@ -506,7 +506,7 @@
 	margin: 1% auto 0px 7%;
 	width: 1300px;
 	height: 650px;
-	background-color:red;
+	background-color:red-space;
 	text-align: left;
 	font-size: 20px;
 	line-height: 20px;
@@ -516,12 +516,88 @@
 	margin: 2% auto 0px 3%;
 	width: 380px;
 	height: 600px;
-	background-color: blue;
+	background-color: blue-space;
 	text-align: left;
 	font-size: 20px;
 	line-height: 20px;
 	word-spacing: 20px;
 	float: left;
+	display:inline;
+	color:white;
+}
+.footerr_big5 span{
+	float: left;
+	display:inline;
+	padding-left: 10%;
+	padding-top: 30%;
+}
+.footerr_big5 p{
+	display:inline;
+	font-size:20px;
+	padding-right: 18%;
+	padding-top: 25%;
+	word-spacing:5px;
+	float: right;
+	display:inline;
+	line-height:27px;
+}
+.footerr_big5 h1{
+	font-family: calibri;
+	font-size: 16px;
+	word-spacing: 1px;
+	float: right;
+	display: inline;
+	line-height: 27px;
+	margin-left: 40px;
+}
+.footerr_big6{
+	width: 170px;
+	height: 35px;
+	font-family: calibri;
+	background-color: #F6AE48;
+	color: #Ffffff;
+	margin-left: 44%;
+	margin-top: -3%;
+	text-align:center;
+	border-radius:20px;
+}
+.footerr_big6:active{
+	width: 170px;
+	height: 35px;
+	font-family: calibri;
+	background-color: #F6AE00;
+	color: #Ffffff;
+	margin-left: 44%;
+	margin-top: -3%;
+	text-align:center;
+	border-radius:20px;
+}
+.double_footer_big11 {
+    width: 1500px;
+    height: 1000px;
+	background-color:white;
+}
+.db_footer_big1 {
+	width: 705px;
+	height: 700px;
+	background-color: white;
+	float: left;
+	display: inline;
+	margin-left: 2%;
+	margin-top: 10%;
+}
+.db_footer_big1 p {
+	font-size: 25px;
+	font-family: calibri;
+	word-spacing: 16px;
+	line-height: 48px;
+	margin-left: 16%;
+	margin-top: 10%;
+}
+.double_footer_big12 {
+    width: 1500px;
+    height: 800px;
+	background-color:#ff3263;
 }
 #navbar ul{
 		display: none;
