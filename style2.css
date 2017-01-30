@@ -1,0 +1,46 @@
+body {
+  background-color: #aaaaaa;
+  opacity:0.9;
+  font-family:calibri;
+  text-align:center;
+}
+.example {
+  max-width: 630px;
+  margin: 50px auto;
+  font-family:calibri;
+}
+input {
+	border:1px solid #A9885A;
+	border-radius:5px;
+	background-color:#A9885A;
+	font-family:calibri;
+}
+input:hover {
+	background-color:#888F5D;
+	box-shadow:1px 1px 1px 1px;
+	border:1px solid #888F5D;
+}
+form{
+	color:white;
+	font-family:calibri;
+}
+h3{
+	color:white;
+	font-family:calibri;
+	margin-top: -5%;
+}
+#formx{
+	color: white;
+	font-family: calibri;
+	width: 550px;
+	height: 370px;
+	-background-color: #aaaaaa;
+	-border: 1px solid red;
+	margin-left: 80%;
+	margin-top:20%;
+}
+#results{
+	margin-left: 60%;
+	margin-bottom: 15%;
+	margin-top: -15%;
+}

@@ -1,16 +1,17 @@
 ﻿body, html {
+	width:calc(100% - 0px); /*ширина, важная часть для несдвигаемой картинки*/
+	height:calc(100% - 0px); /* высота, важная часть для несдвигаемой картинки*/
 	background-color:white;
-	/*background: url(./png/1.png) no-repeat top center; 
-	width:1500px;
-	height:820px;
-	color:red;
-	background-color:black;
-	background-size: 100% auto;*/
+	background-size:100% 100%; /* соотношение картинки к монитору */
+	background-image:url(./others/1q.jpg);
+	background-repeat:no-repeat; /* отключить повторение картинки */
+	overflow:auto; /* подстройка поверх */
+	margin:0 auto;
 }
 /*Создать главный блок ,подблок, с полным расширением ,ширина100 высота 1000,*/
 .glavn_block_boss{
 	width:1500px;
-	height:9000px;
+	height:8690px;
 	background-color:#ffffff;
 	margin:0 auto;
 }
@@ -283,7 +284,7 @@
 }
 .footer_block3{
 	width: 370px;
-	height: 350px;
+	height: 642px;
 	background-color: white;
 	-border-style: solid;
 	margin-left: 0px;
@@ -294,7 +295,7 @@
 }
 .footer_block3:hover{
 	width: 370px;
-	height: 350px;
+	height: 642px;
 	background-color: #FFB03D;
 	-border-style: solid;
 	margin-left: 0px;
@@ -680,7 +681,7 @@
 	color: white;
 	font-size: 26px;
 	margin-left: 25%;
-	margin-top: 10%;
+	margin-top: 25%;
 	word-spacing: 15px;
 	line-height: 30px;
 }
@@ -754,10 +755,16 @@ h1 {font-family:impact;}
 span{font-family:impact;}
 
 
-
-
-
-
+.end p {
+    text-align: left;
+    margin-top: 10%;
+    color: white;
+    font-size: 26px;
+    margin-left: 25%;
+    margin-top: 25%;
+    word-spacing: 15px;
+    line-height: 30px;
+}
 input, textarea { 
  padding: 5px; 
  border: solid 1px #E5E5E5; 
@@ -767,7 +774,12 @@ input, textarea {
  background: #FFFFFF; 
  opacity:0.8;
  } 
- 
+ .end h1 {
+    color: white;
+    font-size: 40px;
+    word-spacing: 25px;
+    line-height: 30px;
+ margin-top: 10%;}
 textarea { 
  width: 400px; 
  max-width: 400px; 
